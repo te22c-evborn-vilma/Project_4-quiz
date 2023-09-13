@@ -3,7 +3,11 @@ string choice = " ";
 
 int sum = 0;
 
-Console.WriteLine("Välkommen till mitt ...quiz!");
+Console.Title = "quiz";
+Console.ForegroundColor = ConsoleColor.Magenta;
+Console.BackgroundColor = ConsoleColor.Gray;
+
+Console.WriteLine("Välkommen till mitt sifferquiz!");
 Console.WriteLine("Svara på frågorna genom att skriva rätt siffra för rätt svarsalternativ och tryck på ENTER.");
 Console.WriteLine("Tryck på ENTER när du är redo för första frågan.");
 
